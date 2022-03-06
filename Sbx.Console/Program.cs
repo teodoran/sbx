@@ -22,7 +22,12 @@ var menu =
 
 top.Add(menu);
 
-var welcome = new Label("Welcome to SBX") { X = 3, Y = 3 };
+var welcome = new Label("Welcome to SBX")
+{
+    X = Pos.Center() - 7,
+    Y = Pos.Center()
+};
+
 win.Add(welcome);
 
 Application.Run();
